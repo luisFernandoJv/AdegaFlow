@@ -27,7 +27,7 @@ export function MainLayout({ children }: MainLayoutProps) {
   const navigate = useNavigate();
 
   const menuItems = [
-    { icon: LayoutDashboard, label: "Dashboard", path: "/" },
+    { icon: LayoutDashboard, label: "Painel principal", path: "/" },
     { icon: ShoppingCart, label: "PDV", path: "/pdv" },
     { icon: Package, label: "Produtos", path: "/produtos" },
     { icon: BarChart3, label: "Estoque", path: "/estoque" },

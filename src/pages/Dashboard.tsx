@@ -236,7 +236,7 @@ export default function Dashboard() {
       {/* Header */}
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
-          Dashboard
+          Painel principal
         </h1>
         <p className="text-sm text-muted-foreground">
           {format(new Date(), "EEEE, dd 'de' MMMM 'de' yyyy", { locale: ptBR })}

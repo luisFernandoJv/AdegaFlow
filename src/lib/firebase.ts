@@ -26,14 +26,7 @@ import {
 } from "firebase/auth";
 import type { User } from "firebase/auth";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBM-qal1l5fLhutQiCbVq3VXc8p73OhDrQ",
-  authDomain: "postocidadeadega.firebaseapp.com",
-  projectId: "postocidadeadega",
-  storageBucket: "postocidadeadega.firebasestorage.app",
-  messagingSenderId: "849638889619",
-  appId: "1:849638889619:web:4cc151389b358092735566",
-};
+const firebaseConfig = {};
 
 const app =
   getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
